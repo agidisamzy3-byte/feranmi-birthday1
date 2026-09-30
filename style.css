@@ -1,0 +1,119 @@
+body {
+    background-color: #ffe6f0;
+    text-align: center;
+    padding-top: 30px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+h1 {
+  color: #d63384;
+  font-size: 45px;
+  margin-bottom: 20px
+  }
+p {
+    color: #b83280;
+    font-size: 18px;
+  line-height: 1.6;
+}
+.card {
+    background-color: white;
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    border-radius: 25px;
+    box-shadow: 0 10px 30px rgba(214, 51, 132, 0.15);
+    box-sizing: border-box;
+}
+button {
+    background-color: #d63384;
+    color: white;
+    border: none;
+    padding: 13px 28px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(214, 51, 132, 0.25);
+}
+button:hover {
+    background-color: #b83280;
+}
+#surprise {
+  display: none;
+  }
+#surprise {
+  color: #d63384;
+  }
+.message {
+    margin-top: 10px;
+    padding: 10px 20px;
+}
+.message h2 {
+    color: #d63384;
+    font-size: 30px;
+}
+.message p {
+    color: #b83280;
+    font-size: 18px;
+    line-height: 1.6;
+}
+.memories {
+  margin-top: 10px;
+  padding: 10px 20px;
+  }
+.memories img {
+  width: 300px;
+  border-radius: 15px;
+  margin-top: 20px;
+  background-color: white;
+  padding: 10px;
+  padding-bottom: 20px;
+  animation: fadeIn 4.5s ease-in
+  }
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+.final-surprise {
+    margin-top: 15px;
+    padding: 20px 20px;
+    text-align: center;
+}
+.final-surprise h2 {
+    color: #d63384;
+    font-size: 30px;
+}
+.final-surprise button {
+    background-color: #d63384;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-size: 16px;
+}
+#finalMessage {
+    display: none;
+    background-color: white;
+    margin-top: 20px;
+    padding: 25px 20px;
+    border-radius: 30px;
+    border: 2px solid #ffd6e7;
+    box-shadow: 0 8px 20px rgba(214, 51, 132, 0.12);
+}
+#anonymousMessage {
+    display: none;
+}
+#anonymousMessage {
+    display: none;
+    background-color: white;
+    margin-top: 20px;
+    padding: 25px 20px;
+    border-radius: 25px;
+    border: 2px solid #ffd6e7;
+    box-shadow: 0 8px 20px rgba(214, 51, 132, 0.12);
+}
